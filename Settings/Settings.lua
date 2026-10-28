@@ -98,6 +98,11 @@ local PGFSettingsTable = {
         title = L["settings.hideBlizzardRoleIcons.title"],
         tooltip = L["settings.hideBlizzardRoleIcons.tooltip"],
         visible = PGF.IsRetail(),
+        callback = function()
+            if LFGListFrame and LFGListFrame.SearchPanel then
+                LFGListSearchPanel_UpdateResults(LFGListFrame.SearchPanel)
+            end
+        end,
     },
     {
         key = "classCircle",
