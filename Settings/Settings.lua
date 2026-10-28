@@ -93,6 +93,13 @@ local PGFSettingsTable = {
         visible = PGF.SupportsSpecializations(),
     },
     {
+        key = "hideBlizzardRoleIcons",
+        type = "checkbox",
+        title = L["settings.hideBlizzardRoleIcons.title"],
+        tooltip = L["settings.hideBlizzardRoleIcons.tooltip"],
+        visible = PGF.IsRetail(),
+    },
+    {
         key = "classCircle",
         type = "checkbox",
         title = L["settings.classCircle.title"],

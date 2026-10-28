@@ -166,3 +166,6 @@ L["settings.warning.taint"] = "Questa opzione può causare errori Lua in situazi
 
 L["dialog.restriction.text"] = "Le restrizioni dell'addon sono attive. Il filtraggio può causare errori Lua."
 L["dialog.restriction.ok"] = "Filtra comunque"
+
+L["settings.hideBlizzardRoleIcons.title"] = "Nascondi le icone dei ruoli di Blizzard"
+L["settings.hideBlizzardRoleIcons.tooltip"] = "Nasconde le icone dei ruoli e i cerchi delle classi di Blizzard dove Mostra specializzazione fornisce una nuova icona. Gli spazi vuoti e gli indicatori di abbandono restano visibili. Richiede Mostra specializzazione."

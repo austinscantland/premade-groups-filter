@@ -201,6 +201,7 @@ C.SETTINGS_DEFAULT = {
     ratingInfo = true,
     groupAge = false,
     specIcon = false,
+    hideBlizzardRoleIcons = false,
     classCircle = false,
     classBar = false,
     leaderCrown = false,

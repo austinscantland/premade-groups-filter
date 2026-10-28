@@ -166,3 +166,6 @@ L["settings.warning.taint"] = "Diese Option kann in eingeschränkten Situationen
 
 L["dialog.restriction.text"] = "Addon-Einschränkungen sind aktiv. Das Filtern kann zu Lua-Fehlern führen."
 L["dialog.restriction.ok"] = "Trotzdem filtern"
+
+L["settings.hideBlizzardRoleIcons.title"] = "Blizzard-Rollensymbole ausblenden"
+L["settings.hideBlizzardRoleIcons.tooltip"] = "Blendet Blizzards Rollensymbole und Klassenkreise aus, wenn Spezialisierung anzeigen ein Ersatzsymbol bereitstellt. Freie Plätze und Markierungen für Gruppenverlassende bleiben sichtbar. Erfordert Spezialisierung anzeigen."

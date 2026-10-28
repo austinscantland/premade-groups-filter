@@ -42,6 +42,7 @@ Examples of what can easily be found with Premade Groups Filter:
 * **Group Leader Rating** - Shows the Mythic+ or PvP rating of the group leader in the premade group list.
 * **Rating in Raider.IO Colors** - Use the Raider.IO rating color scheme for Mythic+ ratings if the Raider.IO addon is loaded.
 * **Show Specialization** - Shows an icon with the class specialization of each member in the premade group list.
+* **Hide Blizzard Role Icons** - Hides Blizzard's role icons and class circles where Show Specialization provides a replacement icon (Retail only). Empty slots and leaver indicators stay visible.
 * **Show Missing Roles** - Shows the role icon of each empty slot in the premade group list.
 * **One Click Sign Up** - Sign up for a group directly by clicking on it, instead of selecting it first, then clicking sign up.
 * **Cancel Oldest Application** - If you have the maximum number of pending applications, click on any group to cancel your oldest application first, then click again to apply.
