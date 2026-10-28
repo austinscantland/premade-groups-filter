@@ -162,6 +162,3 @@ L["settings.warning.taint"] = "이 옵션은 레이드나 전투 중과 같은 �
 
 L["dialog.restriction.text"] = "애드온 제한이 활성화되어 있습니다. 필터링 시 Lua 오류가 발생할 수 있습니다."
 L["dialog.restriction.ok"] = "그래도 필터링"
-
-L["settings.hideBlizzardRoleIcons.title"] = "블리자드 역할 아이콘 숨기기"
-L["settings.hideBlizzardRoleIcons.tooltip"] = "전문화 표시가 대체 아이콘을 제공하는 경우 블리자드 역할 아이콘과 직업 색상 원을 숨깁니다. 빈 자리와 탈주자 표시는 계속 표시됩니다. 전문화 표시를 켜야 합니다."

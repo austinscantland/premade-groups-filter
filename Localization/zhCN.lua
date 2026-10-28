@@ -166,6 +166,3 @@ L["settings.warning.taint"] = "此选项可能在受限情况下（如团队副�
 
 L["dialog.restriction.text"] = "插件限制已生效，过滤可能引发 Lua 错误。"
 L["dialog.restriction.ok"] = "仍然过滤"
-
-L["settings.hideBlizzardRoleIcons.title"] = "隐藏暴雪职责图标"
-L["settings.hideBlizzardRoleIcons.tooltip"] = "在显示专精提供替代图标时，隐藏暴雪的职责图标和职业颜色圆环。空位和离队标记仍然可见。需要启用显示专精。"

@@ -139,8 +139,7 @@ function PGF.AddRoleIndicators(self, searchResultInfo)
 
     local members = PGF.GetSearchResultMemberInfoTable(self.resultID, searchResultInfo.numMembers)
     -- Missing member data can shift PGF's ordering; keep Blizzard's icons in that case.
-    local hideBlizzardIcons = PGF.IsRetail() and PremadeGroupsFilterSettings.hideBlizzardRoleIcons
-        and #members == searchResultInfo.numMembers
+    local hideBlizzardIcons = PGF.IsRetail() and #members == searchResultInfo.numMembers
     for i = 1, #members do
         local color = searchResultInfo.isDelisted and { r = 0.2, g = 0.2, b = 0.2 } or members[i].classColor
         frames[i]:Show()

@@ -91,13 +91,6 @@ local PGFSettingsTable = {
         tooltip = L["settings.specIcon.tooltip"],
         image = "Interface\\AddOns\\PremadeGroupsFilter\\Textures\\SettingsSpecIcon",
         visible = PGF.SupportsSpecializations(),
-    },
-    {
-        key = "hideBlizzardRoleIcons",
-        type = "checkbox",
-        title = L["settings.hideBlizzardRoleIcons.title"],
-        tooltip = L["settings.hideBlizzardRoleIcons.tooltip"],
-        visible = PGF.IsRetail(),
         callback = function()
             if LFGListFrame and LFGListFrame.SearchPanel then
                 LFGListSearchPanel_UpdateResults(LFGListFrame.SearchPanel)
